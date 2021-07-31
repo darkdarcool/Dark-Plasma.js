@@ -1,0 +1,11 @@
+{
+  "name": "plasma",
+  "version": "1.0.0",
+  "description": "The react framework",
+  "scripts": {
+    "test": "echo tests will be done later"
+  },
+  "author": "darkdarcool30",
+  "license": "MIT",
+  "type": "module"
+}

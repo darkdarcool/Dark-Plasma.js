@@ -1,0 +1,15 @@
+{
+  "name": "plasma",
+  "version": "1.0.0",
+  "description": "The plasma framework",
+  "main": "src/plasma.js",
+  "author": "darkdarcool30",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node src/plasma.js"
+  },
+  "dependencies": {
+    "html-react-parser": "^1.2.7"
+  }
+}
