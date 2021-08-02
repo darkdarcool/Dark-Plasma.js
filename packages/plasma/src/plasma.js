@@ -1,3 +1,5 @@
-import parse from 'html-react-parser';
+import render from '../../plasma-dom/src/PlasmaDOM.js';
+import renderProps from '../../plasma-dom/src/PlasmaDOM-Private.js';
 
-console.log(parse('<p> 1 + 1 = {1 + 1} </p>'))
+console.log(render("./src/template.jsx"))
+console.log(renderProps('./src/template.jsx'))

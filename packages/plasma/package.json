@@ -10,6 +10,19 @@
     "build": "node src/plasma.js"
   },
   "dependencies": {
-    "html-react-parser": "^1.2.7"
+    "@babel/core": "^7.14.8",
+    "@babel/generator": "^7.14.9",
+    "@babel/parser": "^7.14.9",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "balanced-match": "^2.0.0",
+    "callsite": "^1.0.0",
+    "chalk": "^4.1.2",
+    "dirname-filename-esm": "^1.1.1",
+    "get-params": "^0.1.2",
+    "html-react-parser": "^1.2.7",
+    "jsx-node": "^0.3.1",
+    "react": "^17.0.2",
+    "react-jsx-parser": "^1.28.4"
   }
 }

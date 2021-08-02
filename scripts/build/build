@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+: '
+This is the build for browserifying the module.
+'
+
+echo "Starting build process..."
+
+# yarn add browserify
+
+npx browserify -t [ babelify --presets [ react ] ] packages/plasma/src/plasma.js -p esmify > dist/bundled.js
+
+

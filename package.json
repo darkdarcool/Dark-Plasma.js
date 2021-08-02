@@ -3,9 +3,22 @@
   "version": "1.0.0",
   "description": "The react framework",
   "scripts": {
-    "test": "echo tests will be done later"
+    "build": "./scripts/build/build"
   },
+  "type": "module",
   "author": "darkdarcool30",
   "license": "MIT",
-  "type": "module"
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1"
+  },
+  "browserify": {
+    "sourceType": "module"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0"
+  }
 }
