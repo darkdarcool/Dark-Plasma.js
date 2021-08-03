@@ -1,5 +1,5 @@
 {
-  "name": "plasma",
+  "name": "dark-plasma.js",
   "version": "1.0.0",
   "description": "The plasma framework",
   "main": "src/plasma.js",
@@ -18,7 +18,10 @@
     "balanced-match": "^2.0.0",
     "callsite": "^1.0.0",
     "chalk": "^4.1.2",
+    "css": "^3.0.0",
+    "css-to-object": "^1.1.0",
     "dirname-filename-esm": "^1.1.1",
+    "express": "^4.17.1",
     "get-params": "^0.1.2",
     "html-react-parser": "^1.2.7",
     "jsx-node": "^0.3.1",

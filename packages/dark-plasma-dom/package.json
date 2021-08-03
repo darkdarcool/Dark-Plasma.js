@@ -1,6 +1,6 @@
 {
-  "name": "plasma-dom",
-  "version": "0.0.1",
+  "name": "dark-plasma-dom",
+  "version": "0.0.4",
   "description": "The DOM editor for Plasma.js",
   "main": "src/PlasmaDOM.js",
   "author": "darkdarcool30",
@@ -13,7 +13,6 @@
     "caller-path": "^3.0.1",
     "callsite": "^1.0.0",
     "dirname-filename-esm": "^1.1.1",
-    "react": "^17.0.2",
     "react-jsx": "^1.0.0"
   }
 }

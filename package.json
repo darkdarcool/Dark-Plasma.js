@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The react framework",
   "scripts": {
-    "build": "./scripts/build/build"
+    "build": "bash scripts/build/build"
   },
   "type": "module",
   "author": "darkdarcool30",
@@ -16,9 +16,12 @@
     "sourceType": "module"
   },
   "dependencies": {
+    "@babel/core": "^7.14.8",
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
+    "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
-    "babelify": "^10.0.0"
+    "babelify": "^10.0.0",
+    "rollup": "^2.55.1"
   }
 }

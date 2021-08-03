@@ -7,4 +7,6 @@ yarn.lock # just to make sure
 yarn-error.log
 
 *.lock
+
 dist
+

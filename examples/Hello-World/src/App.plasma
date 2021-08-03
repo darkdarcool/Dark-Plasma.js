@@ -1,0 +1,4 @@
+<div style = {styles['.main']}>
+  Hello world!
+  <br />
+</div>
