@@ -1,0 +1,8 @@
+{
+  "name": "dark-plasma-router",
+  "version": "1.0.0",
+  "description": "The router for Plasma.js",
+  "main": "src/index.js",
+  "author": "darkdarcool30",
+  "license": "MIT"
+}
