@@ -1,0 +1,16 @@
+name: Test
+on: 
+  push:
+jobs:
+  build:
+    runs-on: 
+      macos-latest
+    steps:
+      - name: Install Jest
+        run: |
+          yarn i -g jest
+      # Run jest
+      - name: Run jest
+        run: |
+          jest
+        
