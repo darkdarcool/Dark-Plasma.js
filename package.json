@@ -1,27 +1,33 @@
 {
-  "name": "plasma",
-  "version": "1.0.0",
-  "description": "The react framework",
-  "scripts": {
-    "build": "bash scripts/build/build"
-  },
-  "type": "module",
+  "name": "dark-plasma.js",
+  "version": "1.0.7",
+  "description": "The plasma framework",
+  "main": "bundled.js",
   "author": "darkdarcool30",
   "license": "MIT",
-  "devDependencies": {
-    "browserify": "^17.0.0",
-    "esmify": "^2.1.1"
-  },
-  "browserify": {
-    "sourceType": "module"
+  "type": "module",
+  "scripts": {
+    "build": "./scripts/build/build"
   },
   "dependencies": {
     "@babel/core": "^7.14.8",
-    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/generator": "^7.14.9",
+    "@babel/parser": "^7.14.9",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/preset-react": "^7.14.5",
-    "babel-cli": "^6.26.0",
-    "babel-preset-react": "^6.24.1",
-    "babelify": "^10.0.0",
-    "rollup": "^2.55.1"
+    "balanced-match": "^2.0.0",
+    "caller-path": "^3.0.1",
+    "callsite": "^1.0.0",
+    "chalk": "^4.1.2",
+    "css": "^3.0.0",
+    "css-to-object": "^1.1.0",
+    "dirname-filename-esm": "^1.1.1",
+    "express": "^4.17.1",
+    "get-params": "^0.1.2",
+    "html-react-parser": "^1.2.7",
+    "jsx-node": "^0.3.1",
+    "react": "^17.0.2",
+    "react-jsx": "^1.0.0",
+    "react-jsx-parser": "^1.28.4"
   }
 }
