@@ -1,4 +1,5 @@
 <div style = {styles['.main']}>
   Hello world!
   <br />
+  <a href = "/about"> To about! </a>
 </div>
