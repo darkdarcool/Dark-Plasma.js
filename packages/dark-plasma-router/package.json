@@ -4,5 +4,6 @@
   "description": "The router for Plasma.js",
   "main": "src/index.js",
   "author": "darkdarcool30",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }

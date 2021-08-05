@@ -1,9 +1,0 @@
-{
-  "name": "plasma-example",
-  "version": "0.0.1",
-  "description": "An example for Dark-Plasma.js!",
-  "main": "./src/index.js",
-  "author": "YOU",
-  "license": "MIT",
-  "type": "module"
-}

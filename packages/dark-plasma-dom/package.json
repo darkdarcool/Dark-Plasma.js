@@ -17,18 +17,18 @@
     "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/preset-react": "^7.14.5",
     "balanced-match": "^2.0.0",
+    "caller-path": "^3.0.1",
+    "callsite": "^1.0.0",
     "chalk": "^4.1.2",
     "css": "^3.0.0",
     "css-to-object": "^1.1.0",
+    "dirname-filename-esm": "^1.1.1",
     "express": "^4.17.1",
     "get-params": "^0.1.2",
     "html-react-parser": "^1.2.7",
     "jsx-node": "^0.3.1",
     "react": "^17.0.2",
-    "react-jsx-parser": "^1.28.4",
-    "caller-path": "^3.0.1",
-    "callsite": "^1.0.0",
-    "dirname-filename-esm": "^1.1.1",
-    "react-jsx": "^1.0.0"
+    "react-jsx": "^1.0.0",
+    "react-jsx-parser": "^1.28.4"
   }
 }
