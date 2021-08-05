@@ -1,4 +1,4 @@
-import DarkPlasma from "../../../packages/dark-plasma/src/plasma.js"
+import DarkPlasma from "dark-plasma.js"
 
 let plasma = DarkPlasma();
 let styles = plasma.renderCSS('./src/style.css')

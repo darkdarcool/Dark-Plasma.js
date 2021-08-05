@@ -1,4 +1,4 @@
-<div style = {styles['.main']}>
+<div style = {styles.main}>
   You are in about!
   <br />
 </div>

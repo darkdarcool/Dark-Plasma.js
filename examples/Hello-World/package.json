@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "you!",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server": "node src/index.js"
+  },
+  "dependencies": {
+    "dark-plasma.js": "^1.0.7"
+  }
+}
